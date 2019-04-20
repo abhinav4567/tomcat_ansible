@@ -1,8 +1,8 @@
     - name: Create an ec2 instance
       ec2:
          key_name: "{{ keypair }}"
-         aws_access_key: "AKIAJAFQ2J6F2L5OT3WQ"
-         aws_secret_key: "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"
+         aws_access_key: ""
+         aws_secret_key: ""
          group: MyNewDMZ  # security group name
          instance_type: "{{ instance_type}}"
          image: "{{ ami }}"
